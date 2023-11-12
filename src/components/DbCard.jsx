@@ -27,8 +27,6 @@ export default function DbCard() {
       More filters
     </button>
 
-
-
     <div className=" flex relative bg-white rounded border border-gray-300">
       <span className="absolute inset-y-0 left-0 flex items-center p-3">
       <img src={SearchIcon} alt="Description of the image" />
@@ -42,13 +40,6 @@ export default function DbCard() {
 
     
   </div>
-
-
-
-
-
-
-
 
 <div className="pl-20 ml-6">
 <div className="w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
