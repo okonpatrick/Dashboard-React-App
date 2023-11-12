@@ -74,7 +74,7 @@ export default function UserRTDate() {
           <div className="p-5">
             <div className="flex">
               <h5 className="pr-40 flex block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                Total customers
+                Members
               </h5>
               <button
                 id="dropdownButton"
@@ -96,7 +96,7 @@ export default function UserRTDate() {
               </button>
             </div>
             <p className="pt-3 pb-0 text-black text-2xl font-bold block">
-              2,420
+              1,210
             </p>
           </div>
           <div className="pb-0 p-6 pt-0">
@@ -135,7 +135,7 @@ export default function UserRTDate() {
           <div className="p-5">
             <div className="flex">
               <h5 className="pr-40 flex block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                Total customers
+                Active now
               </h5>
               <button
                 id="dropdownButton"
@@ -157,7 +157,7 @@ export default function UserRTDate() {
               </button>
             </div>
             <p className="pt-3 pb-0 text-black text-2xl font-bold block">
-              2,420
+              316
             </p>
           </div>
           <div className="pb-0 p-6 pt-0">
