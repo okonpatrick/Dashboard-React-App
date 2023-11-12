@@ -1,0 +1,3 @@
+ # Dashboard built with ...
+ # React + Vite + Tailwindcss + ApexCharts
+ This is a frontend Engineer tasks. A simple implementation of Signin, SignUp and Dashboard Ui, no authentication yet.
