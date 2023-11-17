@@ -1,6 +1,9 @@
 import { useEffect } from 'react';
 import ApexCharts from 'apexcharts';
 
+// data: [6356, 6490, 6600, 6300, 6450, 6826, 6826],
+
+
 export default function TailwindChart() {
   useEffect(() => {
     // Define the options for the chart
@@ -8,7 +11,7 @@ export default function TailwindChart() {
         chart: {
                         width: "150",
                         height: "100",
-                        // maxWidth: "20%",
+                        maxWidth: "20%",
                         type: "area",
                         fontFamily: "Inter, sans-serif",
                         dropShadow: {
@@ -52,7 +55,8 @@ export default function TailwindChart() {
                       series: [
                         {
                           name: "New users",
-                          data: [6356, 6490, 6600, 6300, 6450, 6826, 6826],
+                          data: [6356, 6500, 6600, 6300, 6450, 6826, 6826],
+
                           color: "#12B76A",
                         },
                       ],
@@ -76,11 +80,12 @@ export default function TailwindChart() {
 
     // Create and render the chart
     const chart = new ApexCharts(document.querySelector("#chart"), options);
-    chart.render();
+    
 
     // Clean up the chart on component unmount
     return () => {
-      chart.destroy();
+      chart.render();
+    //   chart.destroy();
     };
   }, []); // Empty dependency array ensures that this effect runs only once
 

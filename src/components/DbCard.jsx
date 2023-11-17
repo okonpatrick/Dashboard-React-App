@@ -1,4 +1,32 @@
 import SearchIcon from "../assets/search.png"
+// import Buttonbase from "../assets/_Button base.png";
+import Buttonbase1 from "../assets/Buttonbase1.png"
+import Buttonbase2 from "../assets/Buttonbase2.png"
+import Checkboxbase from "../assets/Checkboxbase.png"
+import Avatargroup from "../assets/Avatar-group.png"
+import Avatars from "../assets/Avatars.png";
+import Avatar from "../assets/Avatar.png";
+import Avatar1 from "../assets/Avatar1.png";
+import Avatar2 from "../assets/Avatar2.png";
+import Avatar3 from "../assets/Avatar3.png";
+import Avatar4 from "../assets/Avatar4.png";
+import Avatar5 from "../assets/Avatar5.png";
+import Avatar6 from "../assets/Avatar6.png"
+import Avatargroup1 from "../assets/Avatar-group1.png";
+import Avatargroup2 from "../assets/Avatar-group2.png";
+import Avatargroup3 from "../assets/Avatar-group3.png";
+import Avatargroup4 from "../assets/Avatar-group4.png";
+import Checkbox from "../assets/Checkbox.png";
+import Content from "../assets/Content.png";
+import Progressbar from "../assets/Progressbar.png";
+import Progressbar2 from "../assets/Progressbar2.png";
+import Progressbar1 from "../assets/Progress-bar1.png";
+import Progressbar3 from "../assets/Progress-bar3.png";
+import Progressbar4 from "../assets/Progress-bar4.png";
+import Progressbar5 from "../assets/Progress-bar5.png";
+import Tablecell from "../assets/Table-cell.png";
+import Tablecell1 from "../assets/Table-cell1.png";
+
 
 export default function DbCard() {
   return (
@@ -37,16 +65,41 @@ export default function DbCard() {
         placeholder="Search"
       />
     </div>
-
     
   </div>
 
+{/* customers subdashboard panel */}
+
 <div className="pl-20 ml-6">
-<div className="w-full max-w-md p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+<div className="p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
     <div className="flex items-center justify-between mb-4">
-        <h5 className="text-xl font-bold leading-none text-gray-900 dark:text-white">Latest Customers</h5>
+        <h5 className="flex text-xl font-bold leading-none text-gray-900 dark:text-white">
+        <img src={Checkbox} alt="Description of the image" className="pr-3" />
+Company 
+        <svg
+                    data-name="1-Arrow Up"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 32 32"
+                    strokeWidth="2"
+                    stroke="green"
+                    aria-hidden="true"
+                    className="w-4 h-4"
+                    transform="rotate(180)"
+                  >
+                    <path d="m26.71 10.29-10-10a1 1 0 0 0-1.41 0l-10 10 1.41 1.41L15 3.41V32h2V3.41l8.29 8.29z"></path>
+                  </svg></h5>
         <a href="#" className="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
-            View all
+            license use
+        </a>
+        <a href="#" className="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
+            Status
+        </a>
+        <a href="#" className="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
+            user
+        </a>
+        <a href="#" className="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
+            About
         </a>
    </div>
    <div className="flow-root">
@@ -64,9 +117,9 @@ export default function DbCard() {
                             email@windster.com
                         </p>
                     </div>
-                    <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                    {/* <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                         $320
-                    </div>
+                    </div> */}
                 </div>
             </li>
             <li className="py-3 sm:py-4">
