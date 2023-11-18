@@ -79,3 +79,9 @@ button:focus-visible {
   position: relative;
   display: flex;
 }
+
+.page-row {
+  padding-left: 37rem;
+  align-items: center;
+  position: inherit;
+}
